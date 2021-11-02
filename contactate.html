@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>Intituto de formación</title>
+    </head>
+    <body>
+        <header class="header__banner">
+                   <nav class="header__banner--navbar"> 
+               <img class="header__banner--logo" src="IMG/logocaritas.png" alt="logocaritas">  
+                  <ul class="header__navbar--principal">
+                    <li><a class="index" href="index.html">Inicio</a></li>
+                    <li> <a href="formarseparaservir.html">Formarse para servir</a></li>
+                    <li> <a href="cursos.html">Cursos</a></li>
+                    <li> <a href="recursero.html">Recursero</a></li>
+                    <li> <a href="contactate.html">Contactate</a></li>
+                    <li> <a href="buscador.html">Buscador</a></li>
+                </ul>
+                <div class="redes-sociales">
+                    <span><i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>  
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i> 
+                    </span>
+                </div>
+            </nav>
+           
+        </header> 
+    <form action="#"> <!--POR EL MOMEENTO-->
+        <fieldset>
+            <legend> Contactate con nosotros</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
+            <br> <!-- br como provisorio -->
+            <label for="apellido"> Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+            <br>
+            <!-- MENU DESPLEGABLE-->
+            <br>
+            <br>
+            
+            <label for="diocesis"> Diócesis: </label>
+            <br>
+            
+            <select name="diocesis" id="diocesis">
+                <option value=""> Seleccioná tu diócesis</option>
+                <option value="neuquen"> Neuquen</option>
+                <option value="alto Valle"> Alto Valle</option>
+                <option value="esquel">Esquel</option>
+                <option value="formosa">Formosa</option>
+                <option value="reconquista">Reconquista</option>
+                </select>
+            <br>
+            <br>
+            <br>
+            <label for="cosulta"> Escribí tu consulta</label>
+            <br>
+
+            <textarea name="consulta" id="consulta" cols="30" rows="5" maxlength="500"></textarea>
+
+            <!--CHECKBOX-->
+            
+            <label for="queteinteresa">¿qué te interesa?</label>
+            <br>
+            <input type="checkbox" name="cbox1" id="queteinteresa"> Libros
+            <input type="checkbox" name="cbox2" id="queteinteresa"> Videos
+            <input type="checkbox" name="cbox3" id="queteinteresa"> Artículos
+            <br>
+            <br>
+            <label for="enviaconsulta"></label>
+            <input type="submit" value="Enviá tu consulta" id="enviaconsulta">
+            <input type="reset" value="Limpiar formulario">
+            
+        </fieldset>
+    </form>
+    <main>
+
+    </main>
+    <footer>
+    <div class="footer__1"></div>
+    <div class="footer__2"></div>
+    </footer>
+</body>
+</html>

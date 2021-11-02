@@ -1,0 +1,456 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1,1;
+
+}
+
+/* -----------HEADER------------- */
+
+.header__banner
+{
+    background-color:  #15abc5a8;
+    background-size: cover ;
+    border-style: solid;
+    border-width: 14px 0px 0px 0px;
+    border-color: #3A7DB9;
+    padding: 40px;
+    margin: 2px;
+}
+
+.header__banner--logo
+
+{
+width: 90px;
+height: 90px;
+margin-top: -54px;
+margin-left: -43px
+}
+
+
+.header__navbar--principal {
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: -76px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+   }
+
+.header__navbar--principal li {
+    display: inline-block;
+}
+.header__navbar--principal a {
+    text-decoration: none;
+    text-align:right;
+    font-family: "Monserrat";
+    color: rgb(54, 62, 66);
+    padding: 1.5rem;
+    width: 60%;
+    }
+
+.redes-sociales
+{
+    padding: 10px;
+    margin: -42px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+           
+}
+/* TRANSITION 
+
+.redes-sociales:hover{
+    background-color: blue;
+    width: 300PX;
+    transform: rotate(180deg);
+}
+*/
+
+.index {
+    color: white;
+}
+/* MAIN */
+
+.mainSection {
+    background-color: rgb(243, 245, 245);
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*.main_imagen {
+background-image: url(./IMG/quienes-somos-1-1024x603.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+    padding: 2rem;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;}  */  
+
+.main__bloqueazul {
+    background-color: rgba(5, 70, 145, 0.651) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 1350px;
+    height: 300px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;  
+    justify-content: space-around;
+}
+
+.main__bloqueazul-bien {
+    font-family: "Montserrat", Sans-serif;
+font-style: italic;
+font-size: 70px;
+text-decoration:wavy
+
+
+}
+.main__boton 
+{ background-color: crimson;
+    padding-left: 38px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-left: 919px;
+    border-top-width: 100px;
+    margin-right: 24px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.main__bloqueazul--parrafo {
+    color: black;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.main__bloqueazul--quiero {
+    text-align: end;
+}
+
+/*METODOLOGÍA*/
+.div__metodologia {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.section__metodologia {
+    display: flex;
+    background-color: brown;
+    color: white;
+    margin: 20px;
+    flex-direction: column;
+    flex-wrap: initial;
+}
+.section__metodologia div {
+    background-color: blanchedalmond;
+    margin: 10  px;
+    padding: 10px;
+    width: 80px;
+
+}
+
+
+/*FORMARSE PARA SERVIR*/
+.tabla__recursero { 
+    color: black;
+}
+
+.cara__libros {
+
+list-style-type: circle;
+list-style-position: initial;
+
+}
+
+/*¿QUE CAPACIDADES QUIERO FORTALECER*/
+
+.cursosMain {
+    padding: 50px;
+
+}
+
+.cursoTitu {
+padding: 10px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color: rgba(2, 0, 117, 0.979);
+}
+
+.cursoFlex {
+    display: flex;
+    flex-direction: column;
+}
+.cursoGrid {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 1fr;
+    grid-template-areas: "inicial animar conducir desarrollar";
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px    ;
+    color: #3a7db9;
+    padding-left: 75px
+}
+
+.formInicial
+{
+grid-area: inicial;
+text-align: center;
+padding-top: 80px;
+}    
+.formIniciala {
+    grid-area:animar;
+    
+}
+.formInicialb {
+    grid-area:conducir;
+}
+.formInicialc {
+    grid-area:desarrollar;
+}
+
+.profuGrid {
+    display: grid;
+    grid-template-columns: 0.1fr 2fr 2fr 2fr 0.1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "profundizacion planificacion acompañamiento administracion none"
+                            "profundizacion articulacion capacitaciondi gestioncon boton";
+    color: cadetblue;
+    justify-items: 
+    center;
+}
+
+.formProfud {
+grid-area:profundizacion;
+}
+.formProfue {
+    grid-area:planificacion;
+}
+.formProfuf {
+    grid-area:acompañamiento;
+}
+.formProfug {
+    grid-area:administracion;
+}
+.formProfuh {
+    grid-area:articulacion;
+}
+.formProfui {
+    grid-area:capacitaciondi;
+}
+.formProfuj {
+    grid-area:gestioncon;
+}
+.formBoton {
+    grid-area:boton;
+    background-color: darkcyan;
+}
+/*SECCION CURSOS*/
+
+
+.contenedorCursos {
+    height: 1171px ;
+    width: 1098px;
+    padding-right: 122px;
+    padding-left: 128px;
+    padding-top: 30px;
+}
+
+.columnaIzquierda {
+    display: table-cell;
+    width: 0,25rem;
+    vertical-align: top;
+}
+
+.columnaDerecha {
+    display: table-cell;
+    width: 75%;
+    /* padding: 40
+px
+ 20
+px
+; */
+    background: url(/wp-content/themes/born-to-give/images/opacityWhite.png) transparent;
+    /* border: 1
+px
+ solid #999999; */
+    vertical-align: top;
+    padding-left: 129px;
+}
+
+/*RECURSERO PRUEBA GRID*/
+
+.biblioRecursos {
+    width: 100%;
+    height: 250px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo"
+                            "parrafo parrafo"
+                            "none boton";
+                                                         
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin: 1px;
+    
+                    }
+
+.biblioRecursos h1 {
+    grid-area: titulo;
+    border: solid 1px;
+}
+.biblioRecursos p {
+    grid-area: parrafo; 
+    border: solid 1px;
+}
+
+.biblioRecursos div {
+    grid-area: boton;
+    border: solid 1px;
+    justify-self: end;}
+
+    /*FOOTER 1 */
+.footer__1 {
+    background-color: #074F97;
+    padding: 100px;
+    padding-bottom: 227px;
+    border-width: 200px;
+    color: lavenderblush;
+}
+
+
+/*FOOTER 2 */
+.footer__2 {
+    background-color: #00162D;
+    padding: 100px;
+    padding-bottom: 227px;
+    border-width: 200px;
+    color: lavenderblush;
+}
+
+
+/*FORMARSE PARA SERVIR*/
+
+.formarse {
+    background-color: rgba(165, 42, 42, 0.719);
+    padding: ;
+    margin: ;
+}
+
+.formarseTitu {
+    font-family: "Monserrat";
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: center;
+    padding: 30PX;
+}
+
+.comoEnte {
+    background-color: blanchedalmond;
+    padding: 50PX;
+}   
+
+.comoTitu {
+    text-align: center;
+    padding: 10px;
+}
+.parraFor {
+    text-align: center;
+    padding: 10px;
+}
+.nuestraMeto {
+    padding: 50px;
+}
+.metoTitu {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+.nuestraMetoFlex {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around   ;
+    height: 205px;
+}
+.problematizar {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.elemento1Meto {
+   }
+.conceptualizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apropiarse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.videoFor {
+text-align: center;
+padding: 40px;
+}
+
+.equipoFor {
+text-align: center;
+padding: 30px;
+font-size: 50px;
+text-transform: uppercase;
+background-color: lavender;
+font-weight: bold;
+
+}
+
+.gusLorenzo {
+    display: flex;
+    background: darkcyan;
+    }
+.gusFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.gusTitu {
+display: flex;
+font-weight: bold;
+color: white;
+padding: 10px;
+font-size: 2rem;
+order: initial;
+flex-flow: column;
+align-items: center;
+
+}
+
+.gusText {
+    padding: 10px; 
+    padding-left: 133px;
+    margin-right: 250px;
+    color: white;
+    
+}
